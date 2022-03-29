@@ -16,7 +16,9 @@
 <body>
     <header>
         <div>
-            <h1 class="logo">Segun</h1>
+            <h1 class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </h1>
         </div>
 
         <nav>
@@ -41,36 +43,36 @@
 
     </header>
 
-    <div>
-        AwayeCode<br>
-        Klemke Str. 1xx<br>
-        131xx Berlin<br>
-        Deutschland<br>
-        <br>
-        Tel <a href="tel:+4915219221xxx">+4915219221xxx</a><br>
-        Skype <a href="skype:hello.olusexxx"> hello.olusexxx</a><br>
-        Email <a href="mailto:olusegunaxxxaiye@gmail.com">olusegunaxxxaiye@gmail.com</a>
+    <div class="contact-details">
+        <h1>Contact</h1>
+        <p>AwayeCode</p>
+        <p>Klemke Str. 1xx</p>
+        <p>131xx Berlin</p>
+        <p>Deutschland</p>
+        
+        <p>Tel <a href="tel:+4915219221xxx">+4915219221xxx</a></p>
+            <p>Skype <a href="skype:hello.olusexxx"> hello.olusexxx</a></p>
+                <p>Email <a href="mailto:olusegunaxxxaiye@gmail.com">olusegunaxxxaiye@gmail.com</a></p>
     </div>
 
     <br>
 
 
 
-    <div>
-        <h1>Contact</h1>
+    <div class="contact-form">
+        
 
-        <form action="Standard-Form" method="POST" <label class="standard-label">Email: </label>
-            <input type="text" required>
+          
+        <form action="Standard-Form" method="POST">
+           
+            <label class="standard-label">Email: </label><br>
+            <input type="text" required><br>
 
-            <br><br>
+            <label class="standard-label">Telephone: </label><br>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
 
-            <label class="standard-label">Telephone: </label>
-            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-            <br><br>
-
-            <label class="standard-label">Message: </label>
-            <textarea required maxlength="240"></textarea>
+            <label class="standard-label">Message: </label><br>
+            <textarea required maxlength="240"></textarea><br><br>
             <input type="submit" value="Send message">
         </form>
 
@@ -78,13 +80,13 @@
     </div>
 
 
-    <footer>
+    <footer class="footer">
         <p>
             Find me on
 
         </p>
 
-        <a href="https://twitter.com/Alawaiye1">
+        <span><a href="https://twitter.com/Alawaiye1">
 
             <svg width="30px" height="30px" enable-background="new 0 0 48 48" version="1.1" id="Capa_1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -101,7 +103,8 @@
                 </g>
 
             </svg>
-
+</a>
+</span>
     </footer>
 
 

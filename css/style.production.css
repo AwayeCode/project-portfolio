@@ -154,6 +154,15 @@ body {
             flex: 1 1 100px;
   }
   
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px 20px 15px;
+    padding-bottom: 20px;
+    
+}
+  
   .page-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -407,13 +416,29 @@ body {
     display: inline-block;
     margin-left: 15px;
   }
-
+.logo img{
+  width: 100px;
+  height: 100px;
+}
   .navigation__logo {
     position: relative;
     top: 20px;
     left: 20px;
   }
 
+  .logo{
+    height: 50px;
+  }
+.contact-details, .contact-form, .footer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 400px;
+    justify-content: center;
+    padding-top: 20px;
+    width: 40%;
+    margin: auto;
+}
 
   .enjoy-doing {
     text-align: center;
