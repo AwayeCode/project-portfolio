@@ -407,7 +407,10 @@ body {
     transition: 0.2s opacity;
   }
 
-
+.logo-img{
+  width: 30px;
+  height: 30px;
+}
 
   .navigation-list {
     list-style-type: none;
@@ -426,6 +429,16 @@ body {
     left: 20px;
   }
 
+  table, th, td {
+    border:1px solid black;
+  }
+
+  .center{
+display: flex; 
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  }
   .logo{
     height: 50px;
   }
